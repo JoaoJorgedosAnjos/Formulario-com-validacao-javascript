@@ -3,7 +3,7 @@
 Desafio do curso Dev Quest. Quest de HTML, CSS e Javascript intermediário, para criar um formulário com validação utilizando Javascript puro. 
 Ao clicar para enviar o formulário, se caso algum campo não estiver preenchido, a borda do input fica vermelha e aparece uma mensagem avisando ao usuário. Caso esteja correto, a borda do input fica verde.
 
-<img src ="./src/gif/formgif.gif">
+<img src ="./src/gif/gifForm.gif">
 
 ## Tecnologias utilizadas
 
