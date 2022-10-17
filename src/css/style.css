@@ -1,0 +1,138 @@
+main{
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+
+}
+
+.contato{
+    display: flex;
+    height: 41rem;
+    width: 100%;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/bg-repeat.jpg);
+    
+}
+.contato .duvida{
+    color: #ffffff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.contato .duvida h1{
+    font-weight: 900;
+    font-size: 20px;
+    width: 28.8rem;
+    height: 46px;
+    margin-bottom: 11px;
+    line-height: 23px;
+   
+}
+.contato .duvida p{
+    font-weight: 400;
+    font-size: 15px;
+    width: 30rem;
+    height: 54px;
+    line-height: 18px;
+}
+.contato .formulario{
+    background-color: #ffffff;
+    width: 34rem;
+    height: 37.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+   
+}
+.contato .formulario .entrada{
+    width: 298px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-weight: 400;
+    font-size: 15px;
+    position: relative;
+    padding: 10px;  
+   
+}
+.contato .formulario li{
+    margin-bottom: 15px;
+}
+
+.contato .formulario .li-mensagem {
+    margin-bottom: 10px;
+}
+.contato .formulario li:first-child{
+    margin-top: 20px;
+}
+
+.contato .formulario .entrada.message{
+    height: 100px;
+    width: 298px;
+    resize: none;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+
+    
+}
+.entrada::placeholder{
+    color:#A8A8A8;
+    font-weight: 700;
+    
+
+}
+.contato .formulario .campo{
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 15px;
+}
+.contato .formulario .btn{
+    width: 298px;
+    height: 42px;
+    border-radius: 5px;
+    background-color: #3CCC87;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 22px;
+}
+
+.contato .formulario .error input,.contato .formulario .li-mensagem.error textarea{
+    border-color:#F52E2E ;
+    
+}
+.contato .formulario .error .mensagem-error{
+    border-color:#F52E2E ;
+    display: block;
+
+}
+.contato .formulario .sucess input,.contato .formulario .li-mensagem.sucess textarea{
+    border-color:#00C22B ;
+
+}
+
+
+.mensagem-error{
+    color: #F52E2E;
+    font-weight: 400;
+    font-size: 8px;
+    position: absolute;
+    display: none;
+
+}

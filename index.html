@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quest Javascript Intermediário</title>
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <section class="contato">
+            <ul class="duvida">
+                <li>
+                    <h1>FICOU COM DÚVIDA? <br> NOS MANDE UMA MENSAGEM!</h1>
+                </li>
+                <li>
+                    <p>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em
+                        menos de 24h.</p>
+                </li>
+            </ul>
+            <form id="formulario" class="formulario">
+                <ul class="form">
+                    <li class="item">
+                        <input type="text" name="name" placeholder="Nome completo *" class="entrada" id="name">
+                        <p class="mensagem-error">campo obrigatório</p>
+                    </li>
+
+                    <li class="item">
+                        <input type="email" id="email" name="email" placeholder="Email *" class="entrada" id="email">
+                        <p class="mensagem-error">campo obrigatório</p>
+                    </li>
+
+                    <li class="item">
+                        <input type="tel" name="telefone" placeholder="Telefone *" class="entrada" id="tel" >
+                        <p class="mensagem-error" id="tel">campo obrigatório</p>
+                    </li>
+
+                    <li class="item li-mensagem ">
+                        <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Mensagem *"
+                            class="entrada message" ></textarea>
+                        <p class="mensagem-error">campo obrigatório</p>
+                    </li>
+
+                    <li class="campo">*campos obrigatórios</li>
+
+                    <li>
+                        <button type="submit" class="btn" id="btn" >Enviar</button>
+                    </li>
+                </ul>
+
+            </form>
+
+        </section>
+    </main>
+    <script src="src/js/form.js"></script>
+</body>
+
+</html>
