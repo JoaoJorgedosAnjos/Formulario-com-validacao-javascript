@@ -4,20 +4,19 @@ main{
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center;   
    
-
 }
 
 .contato{
     display: flex;
     height: 41rem;
-    width: 100%;
     gap: 4rem;
+    display: flex;
     justify-content: center;
     align-items: center;
     background-image: url(../images/bg-repeat.jpg);
+    width: 100%;
     
 }
 .contato .duvida{
@@ -51,9 +50,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: relative;
 
-   
 }
 .contato .formulario .entrada{
     width: 298px;
@@ -62,18 +59,11 @@ main{
     border: 1px solid black;
     font-weight: 400;
     font-size: 15px;
-    position: relative;
     padding: 10px;  
    
 }
-.contato .formulario li{
-    margin-bottom: 15px;
-}
 
-.contato .formulario .li-mensagem {
-    margin-bottom: 10px;
-}
-.contato .formulario li:first-child{
+.contato .formulario input:first-child{
     margin-top: 20px;
 }
 
@@ -86,19 +76,20 @@ main{
     font-weight: 400;
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
-
     
 }
 .entrada::placeholder{
     color:#A8A8A8;
     font-weight: 700;
-    
 
 }
 .contato .formulario .campo{
     margin-bottom: 16px;
+    margin-top: 7px;
     font-weight: 400;
     font-size: 15px;
+    margin-left: 40px;
+    width: 100%;
 }
 .contato .formulario .btn{
     width: 298px;
@@ -113,26 +104,26 @@ main{
     margin-bottom: 22px;
 }
 
-.contato .formulario .error input,.contato .formulario .li-mensagem.error textarea{
+.contato .formulario .error,.contato .formulario .message.error{
     border-color:#F52E2E ;
     
 }
-.contato .formulario .error .mensagem-error{
-    border-color:#F52E2E ;
-    display: block;
-
-}
-.contato .formulario .sucess input,.contato .formulario .li-mensagem.sucess textarea{
+.contato .formulario .mensagem.mensagem-error{
+    opacity: 1;
+    
+    
+} 
+.contato .formulario .sucess,.contato .formulario .message.sucess{
     border-color:#00C22B ;
 
 }
 
 
-.mensagem-error{
+.formulario .mensagem{
     color: #F52E2E;
     font-weight: 400;
     font-size: 8px;
-    position: absolute;
-    display: none;
-
+    margin-bottom: 6px;
+    width: 85%;
+    opacity: 0;
 }

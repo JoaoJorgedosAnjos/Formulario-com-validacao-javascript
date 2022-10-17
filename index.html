@@ -27,38 +27,24 @@
                         menos de 24h.</p>
                 </li>
             </ul>
-            <form id="formulario" class="formulario">
-                <ul class="form">
-                    <li class="item">
-                        <input type="text" name="name" placeholder="Nome completo *" class="entrada" id="name">
-                        <p class="mensagem-error">campo obrigatório</p>
-                    </li>
+            <form id="formulario" class="formulario campo" method="get">
 
-                    <li class="item">
-                        <input type="email" id="email" name="email" placeholder="Email *" class="entrada" id="email">
-                        <p class="mensagem-error">campo obrigatório</p>
-                    </li>
+                <input type="text" name="name" placeholder="Nome completo *" class="entrada" id="name">
+                <span class="mensagem">campo obrigatório</span>
 
-                    <li class="item">
-                        <input type="tel" name="telefone" placeholder="Telefone *" class="entrada" id="tel" >
-                        <p class="mensagem-error" id="tel">campo obrigatório</p>
-                    </li>
+                <input type="email" id="email" name="email" placeholder="Email *" class="entrada" id="email">
+                <span class="mensagem">campo obrigatório</span>
 
-                    <li class="item li-mensagem ">
-                        <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Mensagem *"
-                            class="entrada message" ></textarea>
-                        <p class="mensagem-error">campo obrigatório</p>
-                    </li>
+                <input type="tel" name="telefone" placeholder="Telefone *" class="entrada" id="tel">
+                <span class="mensagem" id="tel">campo obrigatório</span>
 
-                    <li class="campo">*campos obrigatórios</li>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Mensagem *" class="entrada message"></textarea>
+                <span class="mensagem">campo obrigatório</span>
 
-                    <li>
-                        <button type="submit" class="btn" id="btn" >Enviar</button>
-                    </li>
-                </ul>
+                <span class="campo">*campos obrigatórios</span>
 
+                <button type="submit" class="btn" id="btn">Enviar</button>
             </form>
-
         </section>
     </main>
     <script src="src/js/form.js"></script>
